@@ -26,3 +26,7 @@ Ran 15 tests in 0.078s
 
 OK
 ```
+
+## Portability correction (release candidate)
+
+Initial GitHub Actions run [45313593280](https://github.com/splucasaugusto666/skill-evidence-lab/actions/runs/45313593280): Ubuntu Python 3.13 passed; macOS Python 3.13 failed because the trusted temporary fixture was accessed through `/var`; four jobs were cancelled by fail-fast. The fixture now resolves its own trusted root. User-supplied symbolic-link ancestors remain rejected, parent traversal and Windows reparse points are rejected, and CI fail-fast is disabled. Python 3.13.5 local rerun: 12 skills validated; all 18 unittest cases passed, including workspace alias, parent traversal and simulated reparse-point classification. The latter is a mock, not a real Windows junction test. Remote matrix confirmation and real agent activation remain separate gates.
