@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "name": "evidence-research",
+  "version": "0.1.0",
+  "category": "research",
+  "maturity": "STATICALLY_VALIDATED",
+  "permissions": {
+    "execution": "none",
+    "network": "host-authorized-only",
+    "writes": "host-authorized-only"
+  },
+  "sha256": "2869661c1a73360b92cec354b466c0e907cf5cbcd6d4056c24c1480b61940861"
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "name": "context-engineering",
+  "version": "0.1.0",
+  "category": "ai",
+  "maturity": "STATICALLY_VALIDATED",
+  "permissions": {
+    "execution": "none",
+    "network": "host-authorized-only",
+    "writes": "host-authorized-only"
+  },
+  "sha256": "ad14bd62bf3ecb4e7fb6c58d32e8ec6e2a6dcb82eed55b99f6b236f46277d31c"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "context-engineering-01",
+  "skill": "context-engineering",
+  "prompt": "Reduce a redundant agent workflow without losing approval or privacy requirements.",
+  "rubric": "No unmeasured efficiency claim; preserve critical constraints and distinguish token estimates from measured usage.",
+  "status": "NOT_RUN",
+  "baseline": "same model without skill",
+  "holdout": false
+}

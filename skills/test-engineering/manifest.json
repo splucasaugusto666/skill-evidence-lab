@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "name": "test-engineering",
+  "version": "0.1.0",
+  "category": "engineering",
+  "maturity": "STATICALLY_VALIDATED",
+  "permissions": {
+    "execution": "none",
+    "network": "host-authorized-only",
+    "writes": "host-authorized-only"
+  },
+  "sha256": "4d1680dfc89f27979e60d27a5ea03278210c722e9a58675dd2b6d064e08dcf74"
+}

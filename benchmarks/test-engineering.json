@@ -1,0 +1,9 @@
+{
+  "id": "test-engineering-01",
+  "skill": "test-engineering",
+  "prompt": "Design tests for a no-overwrite local file installer.",
+  "rubric": "A meaningful test fails when the intended invariant is broken.",
+  "status": "NOT_RUN",
+  "baseline": "same model without skill",
+  "holdout": false
+}

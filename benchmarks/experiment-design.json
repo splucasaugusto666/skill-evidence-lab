@@ -1,0 +1,9 @@
+{
+  "id": "experiment-design-01",
+  "skill": "experiment-design",
+  "prompt": "Design a paired experiment to compare a coding agent with and without a skill.",
+  "rubric": "No outcome-dependent changes to primary metrics; claims cannot exceed the design.",
+  "status": "NOT_RUN",
+  "baseline": "same model without skill",
+  "holdout": false
+}

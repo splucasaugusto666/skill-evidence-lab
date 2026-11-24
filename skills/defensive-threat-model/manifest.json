@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "name": "defensive-threat-model",
+  "version": "0.1.0",
+  "category": "security",
+  "maturity": "STATICALLY_VALIDATED",
+  "permissions": {
+    "execution": "none",
+    "network": "host-authorized-only",
+    "writes": "host-authorized-only"
+  },
+  "sha256": "60bb33cfb276e4dda38ac6bcec19607bd17e917e7f217de7901bea19cf0003c3"
+}

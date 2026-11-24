@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+.agents/
+.claude/
+.gemini/
+.cursor/
+.github/skills/

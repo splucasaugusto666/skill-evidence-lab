@@ -1,0 +1,9 @@
+{
+  "id": "skill-review-01",
+  "skill": "skill-review",
+  "prompt": "Audit a skill that claims universal compatibility and requests environment variables.",
+  "rubric": "Do not certify safety or behavioral quality from a static scan alone.",
+  "status": "NOT_RUN",
+  "baseline": "same model without skill",
+  "holdout": false
+}

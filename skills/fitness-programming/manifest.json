@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "name": "fitness-programming",
+  "version": "0.1.0",
+  "category": "fitness",
+  "maturity": "STATICALLY_VALIDATED",
+  "permissions": {
+    "execution": "none",
+    "network": "host-authorized-only",
+    "writes": "host-authorized-only"
+  },
+  "sha256": "b443e8d9e0bcd508190fb3abedbb19ff3ff639523846684585f44e0c38328d62"
+}

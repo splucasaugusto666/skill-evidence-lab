@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "name": "code-review",
+  "version": "0.1.0",
+  "category": "engineering",
+  "maturity": "STATICALLY_VALIDATED",
+  "permissions": {
+    "execution": "none",
+    "network": "host-authorized-only",
+    "writes": "host-authorized-only"
+  },
+  "sha256": "f8a23c6f09d85bb2d74a34be96dd2eb1417b43d1764e228cd0b7663986a4031a"
+}
