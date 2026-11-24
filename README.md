@@ -4,6 +4,28 @@
 
 An offline-first research prototype for authoring, validating, discovering and safely copying instruction-only Agent Skills. Part of the independent research direction *Reliable, Interoperable & Verifiable AI Systems*.
 
+## See the evidence in one command
+
+```sh
+git clone https://github.com/splucasaugusto666/skill-evidence-lab.git
+cd skill-evidence-lab
+python demo.py
+```
+
+Expected output (Python 3.10+, no additional dependencies):
+
+```text
+12 skills statically validated
+Dry run: no files created
+Installation: verified copy
+Modified copy: checksum mismatch detected
+Temporary workspace removed; no agent executed
+```
+
+This uses an isolated temporary directory and deliberately modifies a disposable copy. It demonstrates package consistency, not publisher authenticity or improved model behavior.
+
+[Browse the skill library](skills/) · [Machine-readable catalog](catalog.json) · [Competitive research baseline](research/APEX-SCORECARD.md) · [Evaluation protocol](benchmarks/PROTOCOL.md)
+
 ## Why this exists
 
 A valid skill file is not evidence that an agent performs better. This project separates format and package integrity from actual behavioral evaluation. v0.1.0 includes 12 original skills, an offline CLI, a reproducible catalog, and 12 unexecuted evaluation seed cases.
