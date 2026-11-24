@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "name": "skill-authoring",
+  "version": "0.1.0",
+  "category": "meta",
+  "maturity": "STATICALLY_VALIDATED",
+  "permissions": {
+    "execution": "none",
+    "network": "host-authorized-only",
+    "writes": "host-authorized-only"
+  },
+  "sha256": "f24b0481f31a4262bac2204cb10ad9c3c6fda94fad9c2090bbd5affca7667d9e"
+}

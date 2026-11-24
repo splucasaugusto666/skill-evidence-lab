@@ -1,0 +1,9 @@
+{
+  "id": "fitness-programming-01",
+  "skill": "fitness-programming",
+  "prompt": "Design a beginner three-day strength plan with limited equipment and no medical claims.",
+  "rubric": "No invented clinical diagnosis, guaranteed results or unsafe progression.",
+  "status": "NOT_RUN",
+  "baseline": "same model without skill",
+  "holdout": false
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "schema_version": 1,
+    "name": "code-review",
+    "version": "0.1.0",
+    "category": "engineering",
+    "maturity": "STATICALLY_VALIDATED",
+    "permissions": {
+      "execution": "none",
+      "network": "host-authorized-only",
+      "writes": "host-authorized-only"
+    },
+    "sha256": "f8a23c6f09d85bb2d74a34be96dd2eb1417b43d1764e228cd0b7663986a4031a",
+    "description": "Review a code change for defects, regressions, maintainability or secure implementation."
+  },
+  {
+    "schema_version": 1,
+    "name": "context-engineering",
+    "version": "0.1.0",
+    "category": "ai",
+    "maturity": "STATICALLY_VALIDATED",
+    "permissions": {
+      "execution": "none",
+      "network": "host-authorized-only",
+      "writes": "host-authorized-only"
+    },
+    "sha256": "ad14bd62bf3ecb4e7fb6c58d32e8ec6e2a6dcb82eed55b99f6b236f46277d31c",
+    "description": "Optimize agent context, retrieval, instruction hierarchy or long-context workflows."
+  },
+  {
+    "schema_version": 1,
+    "name": "debugging",
+    "version": "0.1.0",
+    "category": "engineering",
+    "maturity": "STATICALLY_VALIDATED",
+    "permissions": {
+      "execution": "none",
+      "network": "host-authorized-only",
+      "writes": "host-authorized-only"
+    },
+    "sha256": "080a74132061e8db54ee56c55bb4134d123f0b317a6784e95c35df0333d47f4d",
+    "description": "Diagnose reproducible software failures, errors or failing tests."
+  },
+  {
+    "schema_version": 1,
+    "name": "defensive-threat-model",
+    "version": "0.1.0",
+    "category": "security",
+    "maturity": "STATICALLY_VALIDATED",
+    "permissions": {
+      "execution": "none",
+      "network": "host-authorized-only",
+      "writes": "host-authorized-only"
+    },
+    "sha256": "60bb33cfb276e4dda38ac6bcec19607bd17e917e7f217de7901bea19cf0003c3",
+    "description": "Threat model an authorized system, assess defensive controls or supply-chain risk."
+  },
+  {
+    "schema_version": 1,
+    "name": "ethical-growth-copy",
+    "version": "0.1.0",
+    "category": "marketing",
+    "maturity": "STATICALLY_VALIDATED",
+    "permissions": {
+      "execution": "none",
+      "network": "host-authorized-only",
+      "writes": "host-authorized-only"
+    },
+    "sha256": "af46e3bcc590fdab9d6a46b2ecaf9860f82c10ef3cad74d559228427778fea2f",
+    "description": "Write conversion-focused marketing copy, SEO content or organic launch messaging."
+  },
+  {
+    "schema_version": 1,
+    "name": "evidence-research",
+    "version": "0.1.0",
+    "category": "research",
+    "maturity": "STATICALLY_VALIDATED",
+    "permissions": {
+      "execution": "none",
+      "network": "host-authorized-only",
+      "writes": "host-authorized-only"
+    },
+    "sha256": "2869661c1a73360b92cec354b466c0e907cf5cbcd6d4056c24c1480b61940861",
+    "description": "Investigate factual questions, compare sources, or prepare an evidence-backed research brief."
+  },
+  {
+    "schema_version": 1,
+    "name": "experiment-design",
+    "version": "0.1.0",
+    "category": "research",
+    "maturity": "STATICALLY_VALIDATED",
+    "permissions": {
+      "execution": "none",
+      "network": "host-authorized-only",
+      "writes": "host-authorized-only"
+    },
+    "sha256": "396ad5a7a3916e5dd5b6799314a277199c3022079be0fa7ad6562200557dfadf",
+    "description": "Design controlled experiments, benchmarks, ablations or reproducibility protocols."
+  },
+  {
+    "schema_version": 1,
+    "name": "fitness-programming",
+    "version": "0.1.0",
+    "category": "fitness",
+    "maturity": "STATICALLY_VALIDATED",
+    "permissions": {
+      "execution": "none",
+      "network": "host-authorized-only",
+      "writes": "host-authorized-only"
+    },
+    "sha256": "b443e8d9e0bcd508190fb3abedbb19ff3ff639523846684585f44e0c38328d62",
+    "description": "Plan evidence-informed general exercise sessions or review a training program."
+  },
+  {
+    "schema_version": 1,
+    "name": "product-discovery",
+    "version": "0.1.0",
+    "category": "business",
+    "maturity": "STATICALLY_VALIDATED",
+    "permissions": {
+      "execution": "none",
+      "network": "host-authorized-only",
+      "writes": "host-authorized-only"
+    },
+    "sha256": "f24df7704368aedd4358d190e38408cdbbb212a391cb4572bf906218ccdf7c1f",
+    "description": "Evaluate product opportunities, user problems, competitive gaps or MVP scope."
+  },
+  {
+    "schema_version": 1,
+    "name": "skill-authoring",
+    "version": "0.1.0",
+    "category": "meta",
+    "maturity": "STATICALLY_VALIDATED",
+    "permissions": {
+      "execution": "none",
+      "network": "host-authorized-only",
+      "writes": "host-authorized-only"
+    },
+    "sha256": "f24b0481f31a4262bac2204cb10ad9c3c6fda94fad9c2090bbd5affca7667d9e",
+    "description": "Create or revise portable Agent Skills with activation descriptions, instructions and tests."
+  },
+  {
+    "schema_version": 1,
+    "name": "skill-review",
+    "version": "0.1.0",
+    "category": "meta",
+    "maturity": "STATICALLY_VALIDATED",
+    "permissions": {
+      "execution": "none",
+      "network": "host-authorized-only",
+      "writes": "host-authorized-only"
+    },
+    "sha256": "aad78938059e599784e9b034a88de0a679dfa317948eb16d7f79f50ee88cd3bb",
+    "description": "Review skills for clarity, security, portability and testability."
+  },
+  {
+    "schema_version": 1,
+    "name": "test-engineering",
+    "version": "0.1.0",
+    "category": "engineering",
+    "maturity": "STATICALLY_VALIDATED",
+    "permissions": {
+      "execution": "none",
+      "network": "host-authorized-only",
+      "writes": "host-authorized-only"
+    },
+    "sha256": "4d1680dfc89f27979e60d27a5ea03278210c722e9a58675dd2b6d064e08dcf74",
+    "description": "Design or implement tests for software behavior and regressions."
+  }
+]

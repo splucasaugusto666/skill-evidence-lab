@@ -1,0 +1,9 @@
+{
+  "id": "skill-authoring-01",
+  "skill": "skill-authoring",
+  "prompt": "Create a Python audit skill that activates for authorized code review but not credential theft.",
+  "rubric": "Directory and name match; no unsupported host capabilities or untested performance claims.",
+  "status": "NOT_RUN",
+  "baseline": "same model without skill",
+  "holdout": false
+}

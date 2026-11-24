@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "name": "ethical-growth-copy",
+  "version": "0.1.0",
+  "category": "marketing",
+  "maturity": "STATICALLY_VALIDATED",
+  "permissions": {
+    "execution": "none",
+    "network": "host-authorized-only",
+    "writes": "host-authorized-only"
+  },
+  "sha256": "af46e3bcc590fdab9d6a46b2ecaf9860f82c10ef3cad74d559228427778fea2f"
+}

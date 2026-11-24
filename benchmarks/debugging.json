@@ -1,0 +1,9 @@
+{
+  "id": "debugging-01",
+  "skill": "debugging",
+  "prompt": "A test passes locally but fails in CI after a dependency update.",
+  "rubric": "Separate observed facts from hypotheses; preserve user changes.",
+  "status": "NOT_RUN",
+  "baseline": "same model without skill",
+  "holdout": false
+}

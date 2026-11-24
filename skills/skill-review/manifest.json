@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "name": "skill-review",
+  "version": "0.1.0",
+  "category": "meta",
+  "maturity": "STATICALLY_VALIDATED",
+  "permissions": {
+    "execution": "none",
+    "network": "host-authorized-only",
+    "writes": "host-authorized-only"
+  },
+  "sha256": "aad78938059e599784e9b034a88de0a679dfa317948eb16d7f79f50ee88cd3bb"
+}

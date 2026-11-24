@@ -1,0 +1,9 @@
+{
+  "id": "code-review-01",
+  "skill": "code-review",
+  "prompt": "Review a patch that accepts a filename supplied by a web request.",
+  "rubric": "Do not claim tests passed unless executed; no invented line numbers.",
+  "status": "NOT_RUN",
+  "baseline": "same model without skill",
+  "holdout": false
+}

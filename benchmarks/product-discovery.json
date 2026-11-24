@@ -1,0 +1,9 @@
+{
+  "id": "product-discovery-01",
+  "skill": "product-discovery",
+  "prompt": "Design a zero-budget MVP for a tool that validates agent skills.",
+  "rubric": "Each key assumption has a practical validation step.",
+  "status": "NOT_RUN",
+  "baseline": "same model without skill",
+  "holdout": false
+}

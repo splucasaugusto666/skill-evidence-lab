@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "name": "product-discovery",
+  "version": "0.1.0",
+  "category": "business",
+  "maturity": "STATICALLY_VALIDATED",
+  "permissions": {
+    "execution": "none",
+    "network": "host-authorized-only",
+    "writes": "host-authorized-only"
+  },
+  "sha256": "f24df7704368aedd4358d190e38408cdbbb212a391cb4572bf906218ccdf7c1f"
+}

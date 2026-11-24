@@ -1,0 +1,9 @@
+{
+  "id": "evidence-research-01",
+  "skill": "evidence-research",
+  "prompt": "Two sources disagree about a product release date; one is an undated aggregator. Reconcile them without inventing a date.",
+  "rubric": "Every material factual claim has a traceable source or is explicitly unverified.",
+  "status": "NOT_RUN",
+  "baseline": "same model without skill",
+  "holdout": false
+}
