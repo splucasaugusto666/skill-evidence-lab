@@ -1,5 +1,5 @@
 """Offline validator, integrity catalog and conservative local installer."""
-import argparse, hashlib, json, re, shutil, sys
+import argparse, hashlib, json, re, shutil, stat, sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent
 NAME=re.compile(r'[a-z0-9]+(?:-[a-z0-9]+)*\Z')
@@ -15,9 +15,17 @@ def unique(pairs):
 def read_json(p):
     return json.loads(p.read_text(encoding='utf-8'),object_pairs_hook=unique)
 
+def is_link(p):
+    try:
+        st=p.lstat()
+    except FileNotFoundError:
+        return False
+    return stat.S_ISLNK(st.st_mode) or bool(getattr(st,'st_file_attributes',0) & getattr(stat,'FILE_ATTRIBUTE_REPARSE_POINT',0))
+
 def safe_dir(p):
+    if '..' in p.parts: raise ValueError('parent traversal is not allowed; use a canonical path')
     for q in (p,*p.parents):
-        if q.is_symlink(): raise ValueError(f'symlink: {q}')
+        if is_link(q): raise ValueError(f'symlink or reparse point: {q}')
     if p.exists() and not p.is_dir(): raise ValueError(f'not a directory: {p}')
 
 def validate(p):
@@ -26,7 +34,7 @@ def validate(p):
     if not NAME.fullmatch(p.name) or len(p.name)>64: raise ValueError('invalid name')
     if {x.name for x in p.iterdir()}!={'SKILL.md','manifest.json'}: raise ValueError('unsupported package contents')
     for f in p.iterdir():
-        if f.is_symlink() or not f.is_file() or f.stat().st_nlink!=1 or f.stat().st_size>128_000: raise ValueError(f'unsafe file: {f}')
+        if is_link(f) or not f.is_file() or f.stat().st_nlink!=1 or f.stat().st_size>128_000: raise ValueError(f'unsafe file: {f}')
     raw=(p/'SKILL.md').read_bytes(); content=raw.decode('utf-8'); lines=content.splitlines()
     if not lines or lines[0]!='---' or '---' not in lines[1:]: raise ValueError('missing frontmatter')
     end=lines.index('---',1); fields={}
