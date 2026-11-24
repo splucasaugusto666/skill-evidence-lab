@@ -106,3 +106,7 @@ A matching hash checks consistency with the supplied manifest, not authenticity 
 Read [CONTRIBUTING.md](CONTRIBUTING.md). See [research landscape](research/LANDSCAPE.md), [roadmap](ROADMAP.md), and [integration design](docs/INTEGRATIONS.md).
 
 MIT license. No affiliation with model vendors is implied.
+
+## Paired evaluation (research prototype)
+
+Compare externally scored outcomes using a frozen plan, explicit missing-data bounds and a synthetic reproducible example. See [evaluation guide](docs/EVALUATION.md) and [APEX Infinity research protocol](research/INFINITY-SCORECARD.md). No real model performance or efficacy has been verified.

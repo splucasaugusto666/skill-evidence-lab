@@ -1,0 +1,29 @@
+[
+  {
+    "plan_sha256": "a50bb214bb3fe76baa6f62c3f0a4dd9d36790d93d1796f386051e47837421e34",
+    "task": "demo-1",
+    "repeat": 1,
+    "condition": "A",
+    "status": "completed",
+    "success": false,
+    "output_sha256": "e2b12cc2889ab62057954225e089b71b2e6891e717c83e055bd2eb68cf00e5a9"
+  },
+  {
+    "plan_sha256": "a50bb214bb3fe76baa6f62c3f0a4dd9d36790d93d1796f386051e47837421e34",
+    "task": "demo-1",
+    "repeat": 1,
+    "condition": "C",
+    "status": "completed",
+    "success": true,
+    "output_sha256": "3206691e570c4a8a579dac03926f3ed898df8b2ef55d4c139a24c6002aea9cc7"
+  },
+  {
+    "plan_sha256": "a50bb214bb3fe76baa6f62c3f0a4dd9d36790d93d1796f386051e47837421e34",
+    "task": "demo-2",
+    "repeat": 1,
+    "condition": "A",
+    "status": "completed",
+    "success": true,
+    "output_sha256": "500405154370d18da2a0240bd4a1eda8a28d1c78f2ee8fe1cbce5539fe20cc0c"
+  }
+]
