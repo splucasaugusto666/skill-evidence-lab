@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "data_origin": "synthetic",
+  "model": "fixture-not-a-model",
+  "config_sha256": "44798d23963a79165ea7034e49355f33c2b7a2ff8dd1c243a0e9d7ee46711722",
+  "scorer": "fixture-v1",
+  "conditions": {
+    "A": "798640599597df7a8daa32b1132f07850a68b5e71bd295650399a38074f52804",
+    "C": "c2e8c0cc2e73b9bd1ba9ef1979e73169b471e25b0e9909efe98fde462c0bf55f"
+  },
+  "tasks": {
+    "demo-1": "4e40087843ab66349b2c93ba1199a43d33fd7c72b70534cded5a684ef7d1e205",
+    "demo-2": "057a483887f4046f45a4b0d35ec9dd58e489d8007b6a11973dea34baa90a1108"
+  },
+  "repetitions": 1
+}
